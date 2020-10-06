@@ -1,0 +1,24 @@
+.stats-bar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.search-bar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-bar .search {
+  margin-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+}

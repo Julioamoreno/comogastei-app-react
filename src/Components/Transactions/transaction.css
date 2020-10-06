@@ -1,0 +1,59 @@
+.transaction {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 20px 5px 5px;
+  background-color: rgb(161, 240, 220);
+}
+
+.transaction .transaction-day {
+  margin-right: 20px;
+  font-family: Consolas, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.group2 {
+  display: flex;
+  flex: 7 1 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.transaction-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.transaction .transaction-category {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.transaction .transaction-description {
+  font-size: 1.1rem;
+}
+
+.transaction .transaction-value {
+  text-align: right;
+  font-family: Consolas, monospace;
+  font-size: 1.8rem;
+}
+
+.transaction .transaction-group-button {
+  margin-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.transaction .transaction-group-button .button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
